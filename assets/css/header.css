@@ -26,10 +26,11 @@
   display: none;
   position: absolute;
   top: 100%;
+  width: 60vw;
 }
 
 .container__btn:checked ~ .menu-list {
-  display: block;
+  display: block;  
 }
 
 .menu-list__title,
@@ -37,3 +38,22 @@
   padding: 1em;
   background: var(--white);
 }
+
+.menu-list__title {
+  color: var(--secondary-color);
+  font-weight: 700;
+}
+
+.menu-list__link {
+  color: var(--primary-color--gradient);
+  text-transform: uppercase;
+  text-decoration: none;
+  background-clip: text;   
+}
+
+.container__btn {
+  position:absolute;
+  opacity: 0;   
+}
+
+
