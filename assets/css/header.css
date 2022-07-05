@@ -31,3 +31,9 @@
 .container__btn:checked ~ .menu-list {
   display: block;
 }
+
+.menu-list__title,
+.menu-list__item {
+  padding: 1em;
+  background: var(--white);
+}
