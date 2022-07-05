@@ -1,0 +1,22 @@
+.header__burger-menu {
+  width: 24px;
+  height: 24px;
+  background: url('../img/Menu.svg') no-repeat center;
+  display: inline-block;
+}
+
+.header {
+  background-color: var(--white);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.container__img {
+  padding: 1em;
+}
